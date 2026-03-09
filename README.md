@@ -1,7 +1,7 @@
 # Thingranker
-This a website where you can rank things. <b>
-<b>
-<bold> How does it work?</bold><b>
+This a website where you can rank things. <br>
+<br>
+<b> How does it work?</b> </br>
 I will explain this with a step-to-step instruction:
 
 <ol>
