@@ -6,6 +6,43 @@
   </head>
 
   <body>
-    <p><em>The website is currently under construction.</em></p>
+    <p><em>The website is currently under construction. The current version will be developed. Bugs may exist and the website may not always work properly. Have this in mind when you use it.</em></p>
+    <br>
+    <p>Fill in the boxes below with the things you want to rank:</p>
+    <input type="text" id="input1">
+    <input type="text" id="input2">
+    <input type="text" id="input3">
+    <input type="text" id="input4">
+    <input type="text" id="input5">
+    <input type="text" id="input6">
+    <input type="text" id="input7">
+    <input type="text" id="input8">
+    <input type="text" id="input9">
+    <input type="text" id="input10">
+    <p id="display1"></p>
+    <p id="display2"></p>
+    <p id="display3"></p>
+    <p id="display4"></p>
+    <p id="display5"></p>
+    <p id="display6"></p>
+    <p id="display7"></p>
+    <p id="display8"></p>
+    <p id="display9"></p>
+    <p id="display10"></p>
+    <button onclick="getInput()"
+    <script>
+      function getInput() {
+        document.getElementById("display1").innerHTML = document.getElementById(input1).value
+        document.getElementById("display2").innerHTML = document.getElementById(input2).value
+        document.getElementById("display3").innerHTML = document.getElementById(input3).value
+        document.getElementById("display4").innerHTML = document.getElementById(input4).value
+        document.getElementById("display5").innerHTML = document.getElementById(input5).value
+        document.getElementById("display6").innerHTML = document.getElementById(input6).value
+        document.getElementById("display7").innerHTML = document.getElementById(input7).value
+        document.getElementById("display8").innerHTML = document.getElementById(input8).value
+        document.getElementById("display9").innerHTML = document.getElementById(input9).value
+        document.getElementById("display10").innerHTML = document.getElementById(input10).value
+      }
+    </script>
   </body>
 </html>
