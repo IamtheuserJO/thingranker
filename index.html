@@ -14,6 +14,16 @@
         background-color: #000000;
         border-color: #00FF00;
       }
+
+      button {
+        color: #00FF00;
+        background-color: #000000;
+        border-color: #00FF00;
+      }
+
+      fieldset {
+        border-color: #00FF00;
+      }
     </style>
   </head>
 
@@ -31,6 +41,9 @@
     <input type="text" id="input8">
     <input type="text" id="input9">
     <input type="text" id="input10">
+
+    <button onclick="getInput()">Submit</button>
+    
     <p id="display1"></p>
     <p id="display2"></p>
     <p id="display3"></p>
@@ -52,7 +65,9 @@
         <label for="alternative1.2">inputvalue2</label>
       </fieldset>
     </form>
-    <button onclick="getInput()">Submit</button>
+    
+    
+    
     <script>
       let inputvalue1 = "No value"
       let inputvalue2 = "No value"
